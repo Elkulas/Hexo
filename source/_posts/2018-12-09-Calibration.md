@@ -14,7 +14,9 @@ description: This article mainly illustrates the principle of calibration, espec
 
 ## Calibration
 
-Camera parameters include intrinsics, extrinsics, and distortion coefficients.
+Camera parameters include intrinsics, extrinsics, and distortion coefficients. The key point of calibration is to determine these parameters shown above to build up the model of camera. By using the camera model, one could determine the relation between the points' position on the 3-D objects and the pixels on the images.
+
+The accuracy really matters.
 
 #### Pinhole Camera Model
 
