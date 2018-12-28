@@ -92,6 +92,51 @@ The algorithm can be explained as below.[^ 2]
 
 ### Parameters
 
+#### Parameter N
+
+The key point is to choose the proper parameters. The parameters required is shown below:
+
+- e = probability that a point is an outlier
+- s = number of points in a sample
+- N = number of samples (we want to compute this)
+- p = desired probability that we get a good sample
+
+The parameter $e$ and $s$ are given by the data set itself, $p$ depends on our requirement. The only parameter we have to design is $N$. $N$ meets the equation below:
+
+$$1-(1-(1-e)^{s})^{N} = p$$
+
+where,
+
+$1-e$ denotes the probability that choosing one point yields an inlier;
+
+$(1-e)^{s}$ denotes the probability of choosing $s$ inliers in a row (sample only contains inliers);
+
+$1-(1-e)^{s}$ denotes the probability that one or more points in the sample were outliers (sample is contaminated);
+
+$(1-(1-e)^{s})^{N}$ denotes the probability that $N$ samples were contaminated;
+
+$1-(1-(1-e)^{s})^{N} $ denotes the probability that at least one sample was not contaminated (at least one sample of $s$ points is composed of only inliers). [^2]
+
+if  $p$  is determined, the desired $N$ is determined by the following equation.
+
+$$N = \frac{\log(1-p)}{\log(1-(1-e)^{s})}$$
+
+#### Example of N
+
+Right the example shown below
+
+$n=12$ points is in the data set, the minimal sample size $s = 2$, outliers ratio $e = 1/6 => 20\%$
+
+So the $N = 5$ give us a 99% chance of getting a pure-inlier sample.
+
+![](2018-12-27-Random-Sample-Consensus\Snipaste_2018-12-28_16-53-07.png)
+
+#### Parameter d
+
+Another important parameter is distance threshold $d$. Usually $d$ is chosen empirically. but when  measurement error is known to be Gaussian with mean 0 and variance $S^2$, there are ways to determine $p$. 
+
+
+
 [^1]: https://en.wikipedia.org/wiki/Random_sample_consensus
 [^2]: http://www.cse.psu.edu/~rtc12/CSE486/lecture15.pdf
 
