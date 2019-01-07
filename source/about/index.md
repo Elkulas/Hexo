@@ -15,7 +15,7 @@ date: 2018-12-12 13:45:40
 
 Currently focusing on multiple sensors calibration. 
 
-SLAM will be the future interest.
+
 
 ### Hobbies
 
