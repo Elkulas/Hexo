@@ -16,7 +16,7 @@ description: This article briefly discusses the main idea of PnP problem and set
 
 经过上网搜索发现，由于电脑里没有安装 ``image_view`` 这个包所以才会报错。因此只需要将这个包安装到电脑上即可：
 
-```sudo apt-get install ros-kinetic-image-view```
+``sudo apt-get install ros-kinetic-image-view``
 
 安装完成之后便可以顺利运行。
 
