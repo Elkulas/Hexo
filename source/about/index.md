@@ -7,9 +7,9 @@ date: 2018-12-12 13:45:40
 
 2009 - 2015 HFLS
 
-2015 - 2019 ZJU
+2015 - 2019 ZJU Automation + English
 
-2019 - 2021 will be master of science in ZJU
+
 
 ### Research Focus
 
