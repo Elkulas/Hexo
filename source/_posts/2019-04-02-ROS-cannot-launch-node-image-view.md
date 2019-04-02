@@ -12,7 +12,7 @@ description: This article briefly discusses the main idea of PnP problem and set
 
 ![](2019-04-02-ROS-cannot-launch-node-image-view/Screenshot from 2019-04-02 16-35-12.png)
 
-在``` catkin_make``` 之后已经进行过 ``source`` 的操作了，所以问题不在于此。
+在`` catkin_make`` 之后已经进行过 ``source`` 的操作了，所以问题不在于此。
 
 经过上网搜索发现，由于电脑里没有安装 ``image_view`` 这个包所以才会报错。因此只需要将这个包安装到电脑上即可：
 
