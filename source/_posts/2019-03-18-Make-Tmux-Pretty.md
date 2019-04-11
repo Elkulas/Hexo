@@ -2,6 +2,8 @@
 title: Make Tmux Pretty
 date: 2019-03-18 16:28:14
 tags:
+categories: 
+- 环境配置
 description: This is the article to beautify the powerful terminal tool -- Tmux
 ---
 
