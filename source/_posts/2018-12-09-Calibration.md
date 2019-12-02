@@ -3,7 +3,7 @@ title: Calibration Basics
 date: 2018-12-09 21:46:45
 tags:
 categories: 
-- Camera Calibration
+- Calibration
 mathjax: true
 description: This article mainly illustrates the principle of calibration, especially about the intrinsic and extrinsic parameters.
 ---
