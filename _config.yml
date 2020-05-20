@@ -77,7 +77,7 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
+deploy: 
   type: git
   repository: https://github.com/Elkulas/Elkulas.github.io.git
   branch: master
