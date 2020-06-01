@@ -323,8 +323,8 @@
         var myDate = new Date();
         var myMonth = myDate.getMonth() + 1;
         var myDay = myDate.getDate();
-        document.write("有效期：2020-0" + myMonth.toLocaleString() + "-" + myDay.toLocaleString() + " - 2020-0" + myMonth.toLocaleString() + "-" + (myDay+1).toLocaleString())
-        </script></div
+        document.write("有效期：2020-" + p(myMonth.toLocaleString()) + "-" + p(myDay.toLocaleString()) + " - 2020-" + p(myMonth.toLocaleString()) + "-" + p((myDay).toLocaleString()))
+        </script></div>
         
     
 
@@ -337,7 +337,11 @@
         var myDate = new Date();
         var myMonth = myDate.getMonth() + 1;
         var myDay = myDate.getDate();
-        document.write("同步时间：2020-0" + myMonth.toLocaleString() + "-" + myDay.toLocaleString() + " 08:52:48")
+	var myHour = myDate.getHours();
+	var myMin = myDate.getMinutes();
+	var mySec = myDate.getSeconds();
+
+        document.write("同步时间：2020-" + p(myMonth.toLocaleString()) + "-" + p(myDay.toLocaleString()) + " " + p(myHour.toLocaleString() - 1) + ":" + p(myMin.toLocaleString()) + ":" + p(mySec.toLocaleString()) )
         </script></div></div>
     
         <p class="tip" style="margin-top: 10px;">凭蓝码可在浙江大学校园内通行<br>请主动出示，配合检查</p>
