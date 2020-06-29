@@ -9,21 +9,16 @@ date: 2018-12-12 13:45:40
 
 2015 - 2019 ZJU Automation + English
 
+2019 - now  ZJU automation master on going
 
+ 
 
 ### Research Focus
 
-Currently focusing on multiple sensors calibration. 
+1. Multiple sensors calibration.
+2. SLAM framework and optimization
 
 
-
-### Hobbies
-
-Saxophone player
-
-Guitar lover
-
-Anime fans
 
 ### Links
 
